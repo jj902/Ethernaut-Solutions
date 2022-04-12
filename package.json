@@ -13,7 +13,6 @@
   "scripts": {
     "compile": "hardhat compile",
     "deploy": "hardhat run scripts/%npm_config_file% --network rinkeby",
-    "test": "hardhat test",
     "verify": "hardhat verify %npm_config_address% --network rinkeby"
   },
   "repository": {
